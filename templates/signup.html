@@ -29,10 +29,10 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #83cbce;
-        /* background-image: url('../static/main3.png'); */
+        /* background-color: #83cbce; */
+        background-image: url('../static/main1.jpg');
         background-size: cover;
-        filter: blur(3px);
+        filter: blur(90px);
         z-index: -1;
     }
 </style>
@@ -43,7 +43,7 @@
     
     <div class="background-container"></div> <!-- Background image container -->
     <div class="container mt-3">
-        <h1>Signup</h1>
+        <h1 style="color: white;">Signup</h1>
         <form id="signupForm" action="{{ url_for('signup') }}" method="POST">
             <div class="form-group">
                 <label for="firstname">First Name:</label>
